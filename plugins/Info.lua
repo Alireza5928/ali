@@ -5,10 +5,10 @@ function run(msg, matches)
 local channel = redis:get('bot:channel')
 		local team = redis:get('bot:team')
 		if not team then
-     team = 'Ernest TM'
+     team = 'botantispam1'
     end
 if not channel then
-    channel = 'telegram.me/Ernest_TM'
+    channel = 'telegram.me/botantispam1'
     end
 local mods = [[ 
 👤Name : '..(msg.from.print_name or '')..'\n🅰first name : '..(msg.from.first_name or '')..'\n🅱last name : '..(msg.from.last_name or '')..'\n\n🆔ID : '..msg.from.id..'\n🌐username : @'..msg.from.username..'\n🚨rank : mod(مدیر)\n\n🆔SuperGroup ID : '..msg.to.id..'\n👥SuperGroup name : '..msg.to.title..'\n\n@'..msg.from.username..'\n@Roonx_Team
