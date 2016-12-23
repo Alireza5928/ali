@@ -36,7 +36,7 @@ local channel = redis:get('bot:channel')
      team = 'Ernest TM'
     end
 if not channel then
-    channel = '@Ernest_TM'
+    channel = '@botantispam1'
     end
 	 return reply_msg(msg['id'],"نام تیم:<b> "..team.."</b>\nلینک کانال: "..channel,ok_cb,false)
 end		
