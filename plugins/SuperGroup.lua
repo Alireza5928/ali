@@ -3339,7 +3339,7 @@ local function run(msg, matches)
 			end
 		end
 		if matches[1] == 'msg.to.peer_id' then
-			return'🔘کص عمت دیباگ شده🔘'
+			return'🔘هه🔘'
 		end
 	end
 end
